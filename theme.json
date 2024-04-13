@@ -196,7 +196,12 @@
                     "right": "2rem",
                     "bottom": "0px",
                     "left": "2rem"
-               }
+               },
+               "blockGap": "var(--wp--preset--spacing--30)"
+          },
+          "color": {
+               "background": "var(--wp--preset--color--light)",
+               "text": "var(--wp--preset--color--base)"
           }
      }
 }
