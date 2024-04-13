@@ -15,6 +15,44 @@
                     "vh",
                     "vw",
                     "%"
+               ],
+               "spacingSizes": [
+                    {
+                         "name": "1",
+                         "size": "0.5rem",
+                         "slug": "10"
+                    },
+                    {
+                         "name": "2",
+                         "size": "clamp(0.75rem, 0.5rem + 0.625vw, 1rem)",
+                         "slug": "20"
+                    },
+                    {
+                         "name": "3",
+                         "size": "clamp(1.24rem, 1rem + 0.625vw,1.5rem)",
+                         "slug": "30"
+                    },
+                    {
+                         "name": "4",
+                         "size": "clamp(1.75rem,1.5rem + 0.625vw, 2rem)",
+                         "slug": "40"
+                    },
+                    {
+                         "name": "5",
+                         "size": "clamp(2.25rem, 2rem + 0.625vw, 2.5rem)",
+                         "slug": "50"
+                    },
+                    {
+                         "name": "6",
+                         "size": "clamp(3rem, 2.5rem + 1.25vw, 3.5rem)",
+                         "slug": "60"
+                    },
+                    {
+                         "name": "7",
+                         "size": "clamp(4rem, 3rem + 2.5vw, 3.5rem)",
+                         "slug": "70"
+                    }
+
                ]
           },
           "useRootPaddingAwareAlignments": true,
@@ -82,6 +120,11 @@
                ]
 
 
+          },
+          "typography": {
+               "customFontSize": true,
+               "dropCap": true,
+               "fluid": true
           }
      },
      "styles": {
