@@ -18,5 +18,17 @@
                ]
           },
           "useRootPaddingAwareAlignments": true
+     },
+     "styles": {
+          "spacing": {
+               "padding": {
+                    "top": "0px",
+                    "right": "2rem",
+                    "bottom": "0px",
+                    "left": "2rem"
+               }
+          }
+
+
      }
 }
