@@ -1,7 +1,7 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
-	"settings": {
+     "$schema": "https://schemas.wp.org/trunk/theme.json",
+     "version": 2,
+     "settings": {
           "appearanceTools": true,
           "layout": {
                "contentSize": "620px",
@@ -52,7 +52,6 @@
                          "size": "clamp(4rem, 3rem + 2.5vw, 3.5rem)",
                          "slug": "70"
                     }
-
                ]
           },
           "useRootPaddingAwareAlignments": true,
@@ -115,11 +114,7 @@
                          "name": "transparent",
                          "slug": "transparent"
                     }
-
-
                ]
-
-
           },
           "typography": {
                "customFontSize": true,
@@ -141,7 +136,58 @@
                          "name": "Georgia,serif",
                          "slug": "georgia-serif"
                     }
-               ]
+               ],
+               "fontSizes": [
+                    {
+                         "fluid": false,
+                         "name": "S",
+                         "size": "1rem",
+                         "slug": "small"
+                    },
+                    {
+                         "fluid": {
+                              "min": "1rem",
+                              "max": "1.25rem"
+                         },
+                         "name": "M",
+                         "size": "1.25rem",
+                         "slug": "medium"
+                    },
+                    {
+                         "fluid": {
+                              "min": "1.25rem",
+                              "max": "1.5rem"
+                         },
+                         "name": "L",
+                         "size": "1.5rem",
+                         "slug": "large"
+                    },
+                    {
+                         "fluid": {
+                              "min": "1.5rem",
+                              "max": "1.75rem"
+                         },
+                         "name": "XL",
+                         "size": "1.75rem",
+                         "slug": "x-large"
+                    },
+                    {
+                         "fluid": {
+                              "min": "1.75rem",
+                              "max": "2rem"
+                         },
+                         "name": "XXL",
+                         "size": "2rem",
+                         "slug": "xx-large"
+                    }
+               ],
+               "fontStyle": true,
+               "fontWeight": true,
+               "letterSpacing": true,
+               "lineHeight": true,
+               "textTransform": true,
+               "textDecoration": true
+          
           }
      },
      "styles": {
@@ -153,7 +199,5 @@
                     "left": "2rem"
                }
           }
-
-
      }
 }
