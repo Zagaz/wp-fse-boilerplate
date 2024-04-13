@@ -17,7 +17,72 @@
                     "%"
                ]
           },
-          "useRootPaddingAwareAlignments": true
+          "useRootPaddingAwareAlignments": true,
+          "color": {
+               "background": true,
+               "custom": true,
+               "defaultDuotone": true,
+               "customDuotone": true,
+               "customGradient": true,
+               "defaultGradients": true,
+               "defaultPalette": true,
+               "palette": [
+                    {
+                         "color": "#2541d3",
+                         "name": "primary",
+                         "slug": "primary"
+                    },
+                    {
+                         "color": "#16c528",
+                         "name": "secondary",
+                         "slug": "secondary"
+                    },
+                    {
+                         "color": "#e01616",
+                         "name": "tertiary",
+                         "slug": "tertiary"
+                    },
+                    {
+                         "color": "#ff8f0a",
+                         "name": "contrast",
+                         "slug": "contrast"
+                    },
+                    {
+                         "color": "#000000",
+                         "name": "black",
+                         "slug": "black"
+                    },
+                    {
+                         "color": "#1b1c1c",
+                         "name": "dark",
+                         "slug": "dark"
+                    },
+                    {
+                         "color": "#565959",
+                         "name": "base",
+                         "slug": "base"
+                    },
+                    {
+                         "color": "#f6f7f7",
+                         "name": "light",
+                         "slug": "light"
+                    },
+                    {
+                         "color": "#ffffff",
+                         "name": "white",
+                         "slug": "white"
+                    },
+                    {
+                         "color": "rgba(255,255,255,0)",
+                         "name": "transparent",
+                         "slug": "transparent"
+                    }
+
+
+               ]
+
+
+          }
      },
      "styles": {
           "spacing": {
