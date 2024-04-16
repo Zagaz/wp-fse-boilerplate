@@ -65,23 +65,28 @@
                "defaultPalette": true,
                "palette": [
                     {
-                         "color": "#2541d3",
-                         "name": "primary",
-                         "slug": "primary"
+                         "color": "#3d5a80",
+                         "name": "Main Dark",
+                         "slug": "main-dark"
                     },
                     {
-                         "color": "#16c528",
-                         "name": "secondary",
-                         "slug": "secondary"
+                         "color": "#98c1d9",
+                         "name": "Main",
+                         "slug": "main"
                     },
                     {
-                         "color": "#e01616",
-                         "name": "tertiary",
-                         "slug": "tertiary"
+                         "color": "#e0fbfc",
+                         "name": "Main Light",
+                         "slug": "main-light"
                     },
                     {
-                         "color": "#ff8f0a",
-                         "name": "contrast",
+                         "color": "#293241",
+                         "name": "Darker",
+                         "slug": "darker"
+                    },
+                    {
+                         "color": "#ee6c4d",
+                         "name": "Contrast",
                          "slug": "contrast"
                     },
                     {
@@ -90,14 +95,14 @@
                          "slug": "black"
                     },
                     {
-                         "color": "#1b1c1c",
-                         "name": "dark",
-                         "slug": "dark"
+                         "color":"#202020",
+                         "name" : "Text",
+                         "slug" : "text"
                     },
                     {
                          "color": "#565959",
-                         "name": "base",
-                         "slug": "base"
+                         "name": "Dark Grey",
+                         "slug": "dark-grey"
                     },
                     {
                          "color": "#f6f7f7",
